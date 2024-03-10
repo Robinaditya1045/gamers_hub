@@ -16,12 +16,12 @@ List<HotTopic> topicItems = [
   HotTopic(
     color: const Color(0xFF3180FF),
     image: "Images/world.png",
-    name: 'World',
+    name: 'Explore',
   ),
   HotTopic(
     color: const Color(0xFFFB3C5F),
     image: "Images/tech.png",
-    name: 'Tech',
+    name: 'Action',
   ),
   HotTopic(
     color: const Color(0xFF57CBFF),
@@ -31,12 +31,12 @@ List<HotTopic> topicItems = [
   HotTopic(
     color: const Color(0xFFFF7A23),
     image: "Images/travel.png",
-    name: 'Travel',
+    name: 'Adven...',
   ),
   HotTopic(
     color: const Color(0xFF0AE3C6),
     image: "Images/kitchen.png",
-    name: 'Kitchen',
+    name: 'Simul..',
   ),
   HotTopic(
     color: const Color(0xFF8349DF),
@@ -73,10 +73,10 @@ List<Yournews> newsItems = [
     description: "Before embarking on a journey to travel the world, it's essential to prepare adequately to ensure a smooth and enjoyable experience.Research the countries and regions you plan to visit. ",
     newsImage: "Images/travelling.png",
     image: "Images/news travel.png",
-    newsTitle: 'What i know before travelling the world',
-    newsCategories: "TRAVEL",
+    newsTitle: 'Battlegrounds Mobile India (BGMI)',
+    newsCategories: "Action",
     date: 'Sunday 2 March 2024',
-    time: '2m',
+    time: 'Recently Played',
     color: const Color(0xFFFF7A23),
   ),
   Yournews(

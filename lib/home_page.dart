@@ -38,7 +38,7 @@ class NewsHomePage extends StatelessWidget {
                 child: Row(
                   children: [
                     Text(
-                      "Hot topic",
+                      "Top Categories",
                       style:
                           TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     ),
@@ -274,20 +274,24 @@ class NewsHomePage extends StatelessWidget {
         child: Stack(
           children: [
             Positioned(
-              left: 0,
+              child: Center(
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(100),
               child: Image.asset(
-                "Images/c..png",
-                height: MediaQuery.of(context).size.height / 5.5,
+                "Images/robin.png",
+                height: MediaQuery.of(context).size.height / 4.8,
                 width: MediaQuery.of(context).size.width / 2.1,
               ),
             ),
-            Positioned(
-                right: 0,
-                child: Image.asset(
-                  "Images/d.png",
-                  height: MediaQuery.of(context).size.height / 5.5,
-                  width: MediaQuery.of(context).size.width / 2.5,
-                ))
+          ),
+        ),
+            // Positioned(
+            //     right: 0,
+            //     child: Image.asset(
+            //       "Images/d.png",
+            //       height: MediaQuery.of(context).size.height / 5.5,
+            //       width: MediaQuery.of(context).size.width / 2.5,
+            //     ))
           ],
         ),
       ),
