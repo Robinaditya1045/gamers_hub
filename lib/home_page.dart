@@ -17,7 +17,7 @@ class NewsHomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                "Explore",
+                "Gamer's DEN",
                 style: TextStyle(fontSize: 37, fontWeight: FontWeight.bold),
               ),
               const SizedBox(
@@ -140,7 +140,7 @@ class NewsHomePage extends StatelessWidget {
                 child: Row(
                   children: [
                     Text(
-                      "Your news",
+                      "Games",
                       style:
                           TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
                     ),

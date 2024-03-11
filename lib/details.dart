@@ -74,7 +74,7 @@ class DetailNews extends StatelessWidget {
                   height: 15,
                 ),
                 const Text(
-                  "So what's changed?",
+                  "How to Play : ",
                   style: TextStyle(
                     fontSize: 21,
                     fontWeight: FontWeight.bold,
@@ -118,17 +118,14 @@ class DetailNews extends StatelessWidget {
                 decoration: BoxDecoration(
                     color: const Color(0xFFDDEAFF),
                     borderRadius: BorderRadius.circular(60)),
-                child: Row(
+                child: const Row(
                   children: [
-                    const SizedBox(
+                    SizedBox(
                       width: 13,
                     ),
-                    Image.asset(
-                      "Images/chat.png",
-                      height: 45,
-                    ),
-                    const Text(
-                      "Add a comment",
+                    Text(
+                      "PLAY",
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 16,
